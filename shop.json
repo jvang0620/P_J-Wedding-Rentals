@@ -1,0 +1,26 @@
+[
+    {
+        "picture": "images_shop_json/pic_1.jpg",
+        "name":"Artificial Eucalyptus Garlands"
+    },
+    {
+        "picture": "images_shop_json/pic_2.jpg",
+        "name":"Artificial Garlands with White Flowers"
+    },
+    {
+        "picture": "images_shop_json/pic_3.jpg",
+        "name":"Artificial Garlands with Dusty Pink Flowers"
+    },
+    {
+        "picture": "images_shop_json/pic_4.jpg ",
+        "name":"Gold Votive Candle Holders"
+    },
+    {
+        "picture": "images_shop_json/pic_5.jpg ",
+        "name":"Assorted Clear Glass Bud Vases"
+    },
+    {
+        "picture": "images_shop_json/pic_6.jpg ",
+        "name":"Light Pink Cheesecloth Table Runners"
+    }
+]

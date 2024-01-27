@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="about.css">
+        <title>AboutPage</title>
+    </head>
+
+    <body>
+        
+        <!--Navigational Bar.-->
+        <ul class="navbar" id="#navbar"> 
+            <li class = nav-item><a class="nav-link" href="index.html">Home</a></li>
+            <li class = nav-item><a class="nav-link" href="about.html">About</a></li>
+            <li class = nav-item><a class="nav-link" href="services.html">Services</a></li>
+            <li class = nav-item><a class="nav-link" href="shop.html">Shop</a></li>
+            <li class = nav-item><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+        </ul>
+
+        <!--Header of page-->
+        <header class="header" id="#header">
+            <h1>About Us</h1>
+        </header>
+
+        <main>
+        <!--Image in page-->
+            <img src="images_about/Who_We_Are.jpg" alt="A picture of wedding venue owners" class="wedding_pic" width="800px" height="auto" >
+
+            <!--text on page-->
+            <div class="myDiv">
+                <h2>WE ARE PSALM & JIREH</h2>
+                <p>
+                    Hi! We’re so glad you’re here. Thank you for stopping by! We are Psalm & Jireh! 
+                    We are the ones behind the name of P&J’s Event Rentals! We have been in business for several years now. 
+                    Our goal is to make your event beautiful and spectacular so that you will always remember it. 
+                    P&J’s Event Rental gives you first class service on beautiful decors with affordable prices. 
+                    <br>
+                    We offer delivery, setup and pickup.
+                    <br><br>
+                    We hope the same love of planning every detail that started with our dreams can also help you to celebrate yours!!
+                </p><br>
+            
+                <h2>Contact Information</h2>
+                <p>Greensboro, North Carolina<br>Phone Number: 555-123-4567<br>Email: info@p&jeventrentals.com</p>
+            </div>
+            <br><br><br>
+
+            <!--Ajax and Json implementation-->
+            <div id="other_venues" class="other_venues">
+                <p>Click VIEW below to meet our team:</p>
+                <button id="button" class="button"><b>VIEW</b></button>
+                <br><br>
+                <div id="about_venues">
+                    <!--about.js will bring the ul & li here-->
+                </div>
+            </div>
+            <br><br><br>
+
+        </main>
+        
+        <!--footer at the bottom of page-->
+        <footer>
+            <p>Copyright © All rights reserved<br>
+            manager@myWebsite.com</p>
+        </footer>
+
+        <!-- For Ajax and Json implementations -->
+        <script src="about.js"></script> 
+
+    </body>
+</html>
